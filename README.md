@@ -33,16 +33,38 @@ install dependencies with
 `yarn`
 
 
-`yarn build`
-
 build for production
-  
 
+`yarn build`
+ 
+
+Runs the app server in development mode and watches changes in code.
+port 4000
 
 `yarn start`
   
-Runs the app server in development mode and watches changes in code.
-port 4000
+
   
+## Run unit test
+
+`yarn test`
+
+## Rest API
+
+#### Task endpoints
+
+|HTTP Method|URL|Description|
+|---|---|---|
+|`POST`|http://localhost:4000/api/tasks | Create new task |
+|`PUT`|http://localhost:4000/api/tasks/{taskId} | Update task by ID |
+|`GET`|http://localhost:4000/api/tasks/{taskId} | Get task by ID |
+|`DELETE`|http://localhost:4000/api/tasks/{taskId} | Delete task by ID |
+|`GET`|http://localhost:4000/api/tasks | Get All tasks |
   
+
+##  Demo running online
+
+https://task-challenge-gvg6.onrender.com/
+
+
 

@@ -1,0 +1,16 @@
+{
+  "semi": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true,
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^(.*)/(?!generated)(.*)/(.*)$",
+    "^(.*)/generated/(.*)$",
+    "^[./]"
+  ]
+}
